@@ -1,0 +1,13 @@
+bash -x file --> This display arguments and commands upon their execution
+
+bash +x file --> This diable debugging
+
+bash -v file --> Show's the input when they are read
+
+bash +v file --> Disable the option
+
+
+shebang hack 
+
+The shebang hack can be changed from #!/usr/bin/bash ==> #!/usr/bin/env bash -xvu
+

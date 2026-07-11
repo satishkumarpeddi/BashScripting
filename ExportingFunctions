@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+fon() {
+	echo $1;
+	echo $2;
+
+	echo "$@";
+
+	echo "$*";
+return 0;
+
+}
+
+fon hello world;
+
+#export -f function_name
+#
+#The above command is used to export the function to the subshells
+#

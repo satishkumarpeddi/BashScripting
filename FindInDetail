@@ -1,0 +1,46 @@
+find . -print 
+
+where . represent's the current directory
+
+-print present's . and .. --> for the parent
+
+-maxdepth (Top) 
+
+-mindepth (Bottom)
+
+
+find . -maxdepth 2 "f*" -print
+
+./f1..
+./f1../f1.1...
+
+Using Find Command Based On The File Type:
+=========================================
+
+find . -type d -print
+
+f - file
+d - directory
+l - symbolic link
+s - socket
+b - block device
+
+
+-atime (access time)
+-mtime (modification time)
+-ctime (change time)
+
+find . -type f -atime -7 print
+
+find . -type f -mtime +7 print
+
+find . -type f -ctime -7 print
+
+The following command is used to print the file's that are newer the file.txt
+
+find . -type f -newer file.txt -print
+
+The following command is used to delete the file's that match
+
+find . -type f -new "f*" -delete
+

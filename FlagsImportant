@@ -1,0 +1,20 @@
+ [ -f $file_var ]: This returns true if the given variable holds a regular
+file path or filename
+ [ -x $var ]: This returns true if the given variable holds a file path or
+filename that is executable
+ [ -d $var ]: This returns true if the given variable holds a directory path
+or directory name
+ [ -e $var ]: This returns true if the given variable holds an existing file
+ [ -c $var ]: This returns true if the given variable holds the path of a
+character device file
+ [ -b $var ]: This returns true if the given variable holds the path of a
+block device file
+ [ -w $var ]: This returns true if the given variable holds the path of a file
+that is writable
+ [ -r $var ]: This returns true if the given variable holds the path of a file
+that is readable
+ [ -L $var ]: This returns true if the given variable holds the path of
+a symlink
+
+ [[ -z $str1 ]]: This returns true if str1 holds an empty string
+ [[ -n $str1 ]]: This returns true if str1 holds a nonempty string

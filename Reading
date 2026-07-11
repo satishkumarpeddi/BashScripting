@@ -1,0 +1,32 @@
+-n for number of character's to read
+
+-s for nonechoed reading (ie password)
+
+-p for prompting
+
+-t timeout 
+
+-d delimiter
+
+
+read -n 2 var
+
+The above line read's two character to the variable 'var'
+
+read -p 'Enter name:' var
+
+The above line display's the prompt and read's the value into the variable'var'
+
+read -s var
+
+The above line is used to read the password in nonechoed 
+
+read -t 2 var
+
+The above line is used to character or text that is been entered in 2 second's of duration
+
+read -d ":" var
+
+The above line is used to end the read after the delimiter
+
+

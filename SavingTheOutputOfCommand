@@ -1,0 +1,16 @@
+Using piping method 
+
+ls | cat -n > out.txt
+
+Using subshell method
+
+command_output=$(ls | cat -n > out.txt)
+
+echo $command_output
+
+Using BackQuotes
+
+command_output=`ls | cat -n`
+
+echo $command_output
+

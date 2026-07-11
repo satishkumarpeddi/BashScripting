@@ -1,0 +1,25 @@
+$ cmd1 ; cmd2 it is similar to $cmd1 and $cmd2
+
+
+Listing of array indexes
+------------------------
+
+$ echo ${!array_var[*]}
+
+$ echo ${!array_var[@]}
+
+
+-echo is used to disable the printing of output to the terminal
+
+echo is used to enable the printing of output to the terminal
+
+Cat
+---
+
+echo "Hello world" | cat - file.txt
+
+
+- acts as the filename for the stdin text
+
+
+

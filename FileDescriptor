@@ -1,0 +1,48 @@
+Custom file descriptors
+-----------------------
+
+The following file descriptor is for reading only
+
+example:-
+---------
+
+"<"
+
+exec 3 < input.txt
+
+echo "Hello world" > input.txt
+
+exec 3<input.txt
+
+cat<&3
+
+print's the output:- Hello world
+
+
+The following file descriptor is for writing 
+
+example:-
+--------
+
+">" 
+
+exec 4>output.txt
+
+echo New Text >&4
+cat output.txt
+
+The following file desciptor is for writing (append mode)
+
+example:-
+---------
+
+">>"
+
+exec 5>>appendMode.txt
+
+echo help text >&5
+
+cat appendMode.txt
+
+
+
