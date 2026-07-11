@@ -1,3 +1,9 @@
 [ condition ] && action;
 
 action executes if the condition is true
+
+[ condition ] || action;
+
+action executes if the condition is false
+
+

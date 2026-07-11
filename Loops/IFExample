@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+x=0
+
+[ $x -ne 1 ] && echo hello world;
+
+[ $x -eq 1 ] || echo not hello world;
+
