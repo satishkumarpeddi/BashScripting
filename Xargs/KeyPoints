@@ -1,0 +1,8 @@
+echo "splitXsplit" | xargs -d X
+
+where -d is the flag representing spliter
+
+example:-
+split split
+
+
