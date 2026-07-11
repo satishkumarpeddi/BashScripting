@@ -1,0 +1,3 @@
+[ condition ] && action;
+
+action executes if the condition is true

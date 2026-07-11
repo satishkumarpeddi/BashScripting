@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+x=0
+
+until [ $x -eq 2 ]
+do 
+	let x+=2; echo $x;
+done
+
+
