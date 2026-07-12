@@ -1,0 +1,11 @@
+The integrity test of a file is know as checksum
+
+md5sum and SHA-1 
+
+md5sum filename
+
+md5sum is 32-character hexadecimal string
+
+extension : md5
+
+
