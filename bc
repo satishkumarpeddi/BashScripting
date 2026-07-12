@@ -1,0 +1,38 @@
+bc
+---
+
+The precision calculator 
+
+echo "4*0.56" | bc
+
+2.24
+
+
+echo "scale=2;3/8" | bc 
+
+In the above command the "scale" is used to set the number of decminal place's
+
+ibase --> input base
+
+obase --> ouput base
+
+example:-
+---------
+
+no=100
+
+echo "obase=2;$no" | bc
+
+o/p:- 
+=====
+
+1100100
+
+no=1100100
+
+echo "obase=10;ibase=2;$no" | bc
+
+100
+
+
+
