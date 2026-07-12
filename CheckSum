@@ -8,4 +8,4 @@ md5sum is 32-character hexadecimal string
 
 extension : md5
 
-
+md5sum -c first.md5 second.md5 In order to check
