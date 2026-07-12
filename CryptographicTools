@@ -1,0 +1,14 @@
+Encryption techniques are used mainly to protect data from unauthorized access.
+
+crypt
+-----
+
+crypt < inputfile > outputfile
+enter passphrase
+
+provide passphrase through command line
+
+crypt passphrase <inputfile >encrypted_file
+
+crypt passphrase -d <encrypted_file >output_file
+
