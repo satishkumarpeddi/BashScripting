@@ -1,0 +1,35 @@
+Let keyword in bashscripting is used to perform basic arithmetic operations 
+
+
+example:-
+
+#!/usr/bin/env bash
+
+no1=4
+no2=5
+
+let result=no1+no2
+echo $result
+
+let no1++
+
+let no2++
+
+let no1+=6
+
+let no2-=5
+
+[] and (()) will do the same thing 
+
+[]
+--
+
+result=$[ no1 + no2 ]
+
+()
+--
+
+result=$(( no1+no2 ))
+
+
+
