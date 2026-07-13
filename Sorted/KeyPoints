@@ -1,0 +1,11 @@
+Sorting according to the keys or columns
+----------------------------------------
+
+sort -nrk 1 data.txt
+
+where -n is the flag for numeric
+
+-r is the flag for reverse sorting
+
+-k is the flag is responsible for the sorting on base of with column
+
