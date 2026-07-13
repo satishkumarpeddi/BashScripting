@@ -1,0 +1,7 @@
+In order to remove \n and ' '
+
+we use -print0 in find command
+
+xargs -0 interprets that the delimiting character is \0.
+
+
