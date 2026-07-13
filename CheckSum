@@ -25,3 +25,13 @@ find directory_path -type f -print0 | xargs -0 md5sum >> directory.md5
 
 md5sum -c directory.md5
 
+
+
+SHA-1 
+-----
+
+It is also similiar to md5sum inorder to check the integrity of the shared file's
+
+sha1sum filename
+
+md5sum and sha1sum are unidirectional hash algorithms
