@@ -9,7 +9,7 @@ md5sum is 32-character hexadecimal string
 extension : md5
 
 md5sum -c first.md5 second.md5 In order to check
-
+-----------------------------------------------------
 The integrity test of a directory using `CheckSum`
 
 -r for recursive traversal
@@ -19,7 +19,7 @@ The integrity test of a directory using `CheckSum`
 using:-
 -------
 
-md5sum -rl directory_path > directory.md5
+md5deep -rl directory_path > directory.md5
 
 find directory_path -type f -print0 | xargs -0 md5sum >> directory.md5
 
