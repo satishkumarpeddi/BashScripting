@@ -1,3 +1,12 @@
 The /tmp file's will be flashed out by the system when the system is reboot 
 
 The most suitable location to store temporary data is /tmp
+
+Note:-
+
+To just generate a filename without actually creating a file or directory,
+
+$filename=`mktemp -u`
+echo $filename
+
+
