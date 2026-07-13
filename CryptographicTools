@@ -12,3 +12,4 @@ crypt passphrase <inputfile >encrypted_file
 
 crypt passphrase -d <encrypted_file >output_file
 
+
