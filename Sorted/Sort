@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+read -p "Enter file name to check: " file
+
+sort -c "$file";
+
+if [ $? -eq 0 ]; then
+	echo "Sorted File"
+else 
+	echo "Not Sorted File"
+fi
+
+
