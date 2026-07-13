@@ -1,0 +1,25 @@
+split cmd on linux is used to split the file in different chunck's of data
+
+split -b 10k data.file
+
+-b is the flag which is used to define the block size
+
+The naming of the file will be xab,xcd...
+
+split -l n data
+
+where -l is the flag indicating the line 
+
+n is used to represent number of line's
+
+split -l n datafile -d -a 4 split_file
+
+where -d is the flag which is used to more arguments (additonal argument's)
+
+
+
+split_file0000
+.
+.
+
+
