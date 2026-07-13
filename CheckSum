@@ -39,6 +39,6 @@ md5sum and sha1sum are unidirectional hash algorithms
 ---------------------------------------------------
 
 
-Note:- bcrypt and sha512sum are used to handle the integrity of the file's more enhanced and safe
+Note:- bcrypt, sha256sum and sha512sum are used to handle the integrity of the file's more enhanced and safe
 
 
