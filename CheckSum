@@ -16,4 +16,12 @@ The integrity test of a directory using `CheckSum`
 
 -l for using relative path.
 
+using:-
+-------
+
+md5sum -rl directory_path > directory.md5
+
+find directory_path -type f -print0 | xargs -0 md5sum >> directory.md5
+
+md5sum -c directory.md5
 
