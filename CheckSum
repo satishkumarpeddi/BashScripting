@@ -35,3 +35,10 @@ It is also similiar to md5sum inorder to check the integrity of the shared file'
 sha1sum filename
 
 md5sum and sha1sum are unidirectional hash algorithms
+
+---------------------------------------------------
+
+
+Note:- bcrypt and sha512sum are used to handle the integrity of the file's more enhanced and safe
+
+
