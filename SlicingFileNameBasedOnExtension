@@ -1,0 +1,10 @@
+% is used to slice the name
+
+file_name="sample.jpg"
+name=${file_name%.*}
+echo "$name"
+
+# is used to slice the extension
+
+extension=${file_jpg#*.}
+echo "$extension"
