@@ -8,3 +8,14 @@ echo "$name"
 
 extension=${file_jpg#*.}
 echo "$extension"
+
+
+## is perferred over the # operator as a file can have multiple extension
+
+file_name="sample.txt.gzip.b2zip"
+extension=${file_name##*.}
+echo "$extension"
+
+o/p:- b2zip
+
+
