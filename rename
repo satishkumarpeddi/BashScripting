@@ -1,0 +1,9 @@
+sudo apt install rename
+
+rename *JPG *jpg
+
+rename 'y/a-z/A-Z/' *
+
+rename 'y/A-Z/a-z/' *
+
+
