@@ -1,0 +1,18 @@
+ls /usr/share/dict
+
+program
+-------
+
+wordz=$1
+grep "^1$" /usr/share/dict/britis-english -q
+if [ $? -eq 0 ]; then
+	echo "$word is a dictionary word";
+else 
+	echo "$word is not a dictionary word";
+fi
+
+-q is used to stay slient 
+
+It mean's that it is used to stop the printing of info to stdout 
+
+and care of only about the status.
