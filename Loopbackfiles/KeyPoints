@@ -1,0 +1,5 @@
+Loopback files are files that can contian a filesystem itself and these files cna be mounted similary to a physical device.
+
+sudo dd if=/dev/zero of=juck.data bs=1M count=1
+
+
