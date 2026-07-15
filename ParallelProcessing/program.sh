@@ -2,7 +2,7 @@
 
 PIDARRAY=()
 
-for file in wisefile;
+for file in wisefile greeting;
 do
 	sha512sum $file  &
 	PIDARRAY+=("$!")
