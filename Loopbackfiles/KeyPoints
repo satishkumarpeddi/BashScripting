@@ -2,4 +2,4 @@ Loopback files are files that can contian a filesystem itself and these files cn
 
 sudo dd if=/dev/zero of=juck.data bs=1M count=1
 
-
+dd is command which work's at very low level in the device.
