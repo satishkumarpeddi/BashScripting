@@ -1,0 +1,9 @@
+comm command is a utility to perform a comparison between the two files.
+
+1st col contain's only text from A file
+
+2nd col contain's only text from B file
+
+3rd col contain's only text that are comman in file A and file B
+
+ 
