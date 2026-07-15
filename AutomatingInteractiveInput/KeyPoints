@@ -1,0 +1,9 @@
+expect parameter provides the expected message.
+
+spawn parameter specifies which commands are to be automated.
+
+send is the message to be sent
+
+expect eof defines the end of the command interaction.
+
+
