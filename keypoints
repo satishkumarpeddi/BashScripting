@@ -22,4 +22,4 @@ echo "Hello world" | cat - file.txt
 - acts as the filename for the stdin text
 
 
-
+ls -lS --time-style=long-iso (This command print's the time in long formate)
