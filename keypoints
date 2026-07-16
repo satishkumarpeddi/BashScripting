@@ -23,3 +23,10 @@ echo "Hello world" | cat - file.txt
 
 
 ls -lS --time-style=long-iso (This command print's the time in long formate)
+
+Touch
+-----
+
+touch -d "Fri Jun 25 20:05:14 IST 1999" filename
+
+The above command is used to create a file a particular time and date.

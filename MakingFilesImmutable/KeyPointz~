@@ -1,6 +1,0 @@
-Making a file immutable is one of the methods for securing files from modification.
-
-
-chattr is command which is used to make the file's immutable.
-
-
