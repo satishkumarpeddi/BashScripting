@@ -13,3 +13,11 @@ comm A.txt B.txt -1 -2
 -1 and -2 are used to incidate the 1'st and 2nd col
 
 -3 is  used to print uncommon lines 
+
+comm A.txt B.txt | sed "s/^\t//" 
+
+where s is for substitute
+
+^ beginning
+
+\t is replaced with /
