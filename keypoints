@@ -30,3 +30,10 @@ Touch
 touch -d "Fri Jun 25 20:05:14 IST 1999" filename
 
 The above command is used to create a file a particular time and date.
+
+
+$? --> Status of the kernel 
+
+$! --> PID of the process that is in background using (&)
+
+$# --> Get's number of argument's passed 
