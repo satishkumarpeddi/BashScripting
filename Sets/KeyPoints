@@ -6,4 +6,10 @@ comm command is a utility to perform a comparison between the two files.
 
 3rd col contain's only text that are comman in file A and file B
 
- 
+insertion of the A.txt and B.txt 
+
+comm A.txt B.txt -1 -2 
+
+-1 and -2 are used to incidate the 1'st and 2nd col
+
+-3 is  used to print uncommon lines 
