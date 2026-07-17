@@ -36,4 +36,18 @@ $? --> Status of the kernel
 
 $! --> PID of the process that is in background using (&)
 
-$# --> Get's number of argument's passed 
+$# --> Get's number of argument's passed
+
+
+Lisitng the directories
+-----------------------
+
+ls -1 | grep "/$"
+
+ls -F | grep "/$"
+
+ls -d */
+
+find . -type d -maxdepth 1 -print 
+
+ 
