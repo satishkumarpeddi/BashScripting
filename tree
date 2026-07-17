@@ -1,0 +1,7 @@
+tree is used to graphical structure of a directory or a file system
+
+tree -h is used to print the structure alongside with size of the file
+
+tree path -P "pattern" --> To find the respective pattern matched file's
+
+tree path -I "pattern" --> To highlight time
