@@ -5,3 +5,10 @@ tree -h is used to print the structure alongside with size of the file
 tree path -P "pattern" --> To find the respective pattern matched file's
 
 tree path -I "pattern" --> To highlight time
+
+tree path -H URL -o html_file
+
+example:-
+---------
+
+tree . -H https://localhost -o output.html
