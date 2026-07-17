@@ -29,4 +29,13 @@ sudo mount /dev/loop1 /mnt/loopback
 
 unmout /mnt/loopback
 
+losetup /dev/loop'n' --> It is used to check the mounted points
+
+losetup -d /dev/loop1 --> It is used to removed the connection.
+
+Note:=
+======
+
+losetup is the command in linux which is used to mount the device's to the loop (which treat it as a block device).
+
 
