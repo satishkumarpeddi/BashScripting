@@ -8,3 +8,10 @@ mv newfile file
 
 sed -i 's/text/replace' file
 
+sed -i 's:text:replace' file
+
+or 
+
+sed -i 's|text|replace|g' file
+
+the delimiter can be / , : , | 
