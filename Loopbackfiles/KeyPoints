@@ -3,3 +3,30 @@ Loopback files are files that can contian a filesystem itself and these files cn
 sudo dd if=/dev/zero of=juck.data bs=1M count=1
 
 dd is command which work's at very low level in the device.
+
+
+Loopback are the filesystems those that we create in files rather than a physcial device.
+
+Making a `Loopback` 
+------------------
+
+sudo dd if=/dev/zeros of=lookbackfile.img bs=1G count=1
+
+mkfs.ext4 loopbackfile.img
+
+sudo mkdir -p /mnt/loopback
+
+mount -o loop lookbackfile.img /mnt/loopback
+
+-o loop is used to mount lookback filesytem
+
+Manual SetUp
+------------
+
+losetup /dev/loop1 lookbackfile.img
+
+sudo mount /dev/loop1 /mnt/loopback
+
+unmout /mnt/loopback
+
+
