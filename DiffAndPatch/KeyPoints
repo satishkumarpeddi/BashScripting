@@ -14,3 +14,17 @@ To revert the file
 
 path p1 version1.txt < version.patch 
 
+DIrectories
+-----------
+
+diff -Naur directory1 directory2
+
+-N is for treating absent files as empty
+
+-a is to consider all files as text files
+
+-u is to produce unified output
+
+-r is to recursively traverse through the files in the directories
+
+
