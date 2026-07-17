@@ -1,0 +1,6 @@
+Structure of awk scripting
+---------------------------
+
+awk is used for advance text processing
+
+awk 'BEING{ print 'start' } pattern { commands } END { print "end" }'
