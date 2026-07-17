@@ -38,4 +38,6 @@ Note:=
 
 losetup is the command in linux which is used to mount the device's to the loop (which treat it as a block device).
 
+losetup -o offset_number /dev/loop'n' file
+
 
