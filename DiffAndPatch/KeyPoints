@@ -1,0 +1,5 @@
+diff -u flag is used to provided a readable formate of data
+
+diff -u version1.txt version2.txt > version.patch
+
+
