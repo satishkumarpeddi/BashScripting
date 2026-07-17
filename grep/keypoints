@@ -10,3 +10,15 @@ echo -e "1 2 3 4\nhello\n5 6" | grep -E -c "[0-9]"
 
 grep "text" . -r -n where -R and -r is used for recursively searching of the folder.
 
+echo "hello world" | grep -i "HELLO" where -i is used to ignore the case.
+
+Matching mulitple patterns
+--------------------------
+
+echo "this is a line of text" | grep  -e "this" -e "line" -o  
+
+grep "main()" . -r --include *.{c,cpp}
+
+the above command is used to find only in this c and cpp file's
+
+
