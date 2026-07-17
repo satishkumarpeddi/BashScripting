@@ -2,4 +2,15 @@ diff -u flag is used to provided a readable formate of data
 
 diff -u version1.txt version2.txt > version.patch
 
+diff -u version1.txt version2.txt > version.patch ==> This command is used to create a patch file.
+
+To apply the patch 
+------------------
+
+patch p1 version1.txt < version.patch
+
+To revert the file 
+------------------
+
+path p1 version1.txt < version.patch 
 
