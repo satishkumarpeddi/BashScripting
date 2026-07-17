@@ -1,0 +1,11 @@
+pushd and popd is used to navigate through the directories without the copying and pasting of directory paths.
+
+pushd and popd is operate's on stack data structure
+
+pushd /var/www
+
+dirs is used to view the item's in the stack data structure.
+
+popd is used to remove the last pushed path
+
+cd - is used to navigate to the previous path 
