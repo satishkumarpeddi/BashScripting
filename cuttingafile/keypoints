@@ -1,0 +1,13 @@
+csv (, separated value)
+
+cut -d ',' -f1,2 filename
+
+-b for bytes
+
+-c for characters
+
+-f for defining fields
+
+cut -c 1-5 filename
+
+
