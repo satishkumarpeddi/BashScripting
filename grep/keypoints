@@ -1,0 +1,12 @@
+echo -e 'hello how are you??' | grep 'hello' --color=always
+
+grep -v is used to print all the line's expect the pattern matched file.
+
+echo -e "1 2 3 4\nhello\n5 6" | egrep -c "[0-9]"
+
+or 
+
+echo -e "1 2 3 4\nhello\n5 6" | grep -E -c "[0-9]"
+
+grep "text" . -r -n where -R and -r is used for recursively searching of the folder.
+
