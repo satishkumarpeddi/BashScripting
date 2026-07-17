@@ -21,4 +21,6 @@ grep "main()" . -r --include *.{c,cpp}
 
 the above command is used to find only in this c and cpp file's
 
+--exclude is used exclude that particular file or file's
+
 
