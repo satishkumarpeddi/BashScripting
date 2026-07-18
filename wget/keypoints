@@ -1,0 +1,41 @@
+wget url
+
+wget url1 url2 .....
+
+
+Specify different logfile path
+
+wget url -O filename -o log
+
+To specify the number of tries , use the -t flag 
+
+wget -t 5 url
+
+wget -t 0 url --> for infinite tries
+
+Speed limit
+-----------
+
+wget --limit-race 20k url
+
+Maximum quota
+-------------
+
+wget -Q 100m url -O filename -o log 
+
+Resume download
+---------------
+
+wget -c url
+
+Mirroring
+---------
+
+wget --mirror --convert-links url
+
+Auth
+----
+
+wget --user username --password pass URL
+
+
