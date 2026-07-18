@@ -1,0 +1,10 @@
+base64 input_file > output_file
+
+
+cat input_file | base64 > output_file
+
+base64 -d output_file > encode_output_file
+
+cat output_file | base64 -d > encode_output_file
+
+

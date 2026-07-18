@@ -1,0 +1,7 @@
+cipo is archiving similiar to tar and it is used in RPM (RedHat Package Manager)
+
+echo file1 file2 file3 file4 | cipo -ov > archive.cpio
+
+cipo -it < archive.cpio
+
+cpio -id < archive.cipo
