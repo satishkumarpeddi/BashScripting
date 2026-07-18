@@ -1,0 +1,15 @@
+rsync -av source_path destionation_path 
+
+rsync is used to backup snapshots
+
+-a for archive
+-v for verbose ( print details or progress on stdout)
+
+Remote server:-
+
+rsync -av source_dir username@host : PATH
+
+To restore from the server
+--------------------------
+
+rsync -av username@host : PATH destination
