@@ -1,0 +1,49 @@
+Setting up the backup for file using version control system
+
+Remote Server
+-------------
+
+sudo mkdir -p /home/backups/backup
+
+cd /home/backups/backup
+
+sudo git init --bare
+
+Client Side
+-----------
+
+git init (It should be done in the backup directory)
+
+git remote add origin username@host:/path_of_directory
+
+git commit --allow-empty -am "Init"
+
+Remote Server
+-------------
+
+Change the ownership (sudo chown -R username:username /home/backups/backup.git
+
+Client side
+-----------
+
+git commit -m "Commit Message"
+
+Remote Server
+-------------
+
+git log main/master --stat --> Show's the status for the recent commit's
+
+git ls-tree -r main --name-only (show the name's of the backup file's)
+
+Extracting the file's
+=====================
+
+sudo mkdir -p /home/backups/extracted_files
+
+cd /home/backups/extracted_files
+
+git --work-tree=/home/backups/extracted_files --git-dir=/home/backups/backup.git checkout -f branch
+
+
+
+
