@@ -1,0 +1,17 @@
+echo -e 'line1\nline2\n' | awk 'BEGIN{ print "Start" } {print} END {print "End" } '
+
+echo| awk '{ var1="v1"; var2="v2"; var3="v3"; print var1,var2,var3 } '
+
+echo -e 'line1\nline2\n' | awk 'BEGIN{ print "Start" } {print} END {print "End" } '
+
+NR --> It stands for the current record number.
+
+NF --> It stands for the number of fields.
+
+echo -e "line1 f2 f3\nline2 f4 f5\nline3 f6 f7\nline4 f8 f9" | \
+
+awk '
+{
+print "No of line:"NR",No of fields:"NF, "$0="$0, "$1="$1, "$2="$2, "$3="$3
+}
+'
