@@ -1,7 +1,0 @@
-gpg -c filename 
-
-The above line used to generate a file with extension .gpg
-
-gpg --> GNU privary guard
-
-
