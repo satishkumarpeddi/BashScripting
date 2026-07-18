@@ -1,0 +1,20 @@
+paste file1 file2 ...
+
+
+cat file1.txt
+1
+2
+3
+
+cat file2.txt
+cat
+ball
+bat
+
+paste file1.txt file2.txt
+
+-d is used as a delimiter flag
+
+paste file1.txt file2.txt -d '.'
+
+
