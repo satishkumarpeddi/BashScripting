@@ -22,3 +22,10 @@ Passing an external variable to awk
 $VAR=10000
 echo | awk -v VARIABLE=$VAR '{ print VARIABLE }'
 
+Reading the external terminal output to a variable
+--------------------------------------------------
+
+
+echo | awk '{ "find . -type f -name 'k*' -print" | getline output ; print output}'
+
+
