@@ -14,9 +14,15 @@ Client Side
 
 git init (It should be done in the backup directory)
 
+git config --global user.name "username"
+
+git config --global user.email "emailid"
+
 git remote add origin username@host:/path_of_directory
 
 git commit --allow-empty -am "Init"
+
+
 
 Remote Server
 -------------
