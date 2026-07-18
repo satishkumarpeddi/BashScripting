@@ -28,4 +28,11 @@ Reading the external terminal output to a variable
 
 echo | awk '{ "find . -type f -name 'k*' -print" | getline output ; print output}'
 
+Foor Loops
+----------
+
+for(i=0;i<10;i++) { print $i ; }
+
+for(i in array) { print array[i];}
+
 
