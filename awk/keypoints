@@ -15,3 +15,10 @@ awk '
 print "No of line:"NR",No of fields:"NF, "$0="$0, "$1="$1, "$2="$2, "$3="$3
 }
 '
+
+Passing an external variable to awk
+-----------------------------------
+
+$VAR=10000
+echo | awk -v VARIABLE=$VAR '{ print VARIABLE }'
+
