@@ -44,6 +44,7 @@ cd /home/backups/extracted_files
 
 git --work-tree=/home/backups/extracted_files --git-dir=/home/backups/backup.git checkout -f branch
 
+sudo is used in each and every command based on the directory mainly (/)
 
 
 
