@@ -1,0 +1,23 @@
+fsarchiver is a tool which can save the contents of a complete filesystem to a compressed archiver file.
+
+fsarchiver have a advantage of new filesystem's (ext4)
+
+The extension for fsarchiver is .fsa
+
+fsarchiver savefs backup.fsa block(/dev/sda1)
+
+For multiple
+------------
+
+fsarchiver savefs backup.fs /dev/sda1 /dev/sda2
+
+To restore a parition from a  backup archive
+
+
+fsarchiver restfs backup.fsa id=0,dest=/dev/sda1
+
+id=0 denote the first parition
+
+fsarchiver restfs backup.fsa id=0,dest=/dev/sda1  id=1,dest=/dev/sda2
+
+
