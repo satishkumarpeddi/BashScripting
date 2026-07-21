@@ -1,0 +1,8 @@
+The commonly used transder protocols are FTP, SFTP, RSYNC, SCP
+
+FTP --> File transfer protocol
+
+sftp --> It used command used to transfer to remote server using `Secure Shell`
+
+
+
