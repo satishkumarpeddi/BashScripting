@@ -1,0 +1,6 @@
+Networking stack is TCP/IP where each node is assigned a unique IP address for identification.
+
+There are many parameters in networking such as subnet mask,route,ports,host names.
+
+
+Networking interface is used to connect a machine to a network. eth0, eth1 

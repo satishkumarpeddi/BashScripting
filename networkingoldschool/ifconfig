@@ -1,0 +1,7 @@
+ifconfig wlan0 ip_addr
+
+The above command should be a root user command
+
+ifconfig wlan0 ip_addr  netmask 255.255.252.0
+
+The above command is used to set the sub netmask using ifconfig command. 
