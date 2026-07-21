@@ -6,5 +6,12 @@ Adding 'Name Servers' to /etc/resolv.conf
 
 echo nameserver IP_Addr >> /etc/resolv.conf
 
+Note: 
+"""
+
+A Domain name cna have mulitple IP address assigned.
+
+ping domain_name get's one ip address among all of them
 
 
+"""
