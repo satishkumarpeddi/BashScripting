@@ -1,0 +1,9 @@
+fping is used to display the info the ip address that are alive on the respective machine.
+
+-a is flag indicating alive machine IP addresses
+
+-u is flag inidicating the unreachable machines
+
+-g is flag which is used to generate the ip addresses 
+
+
