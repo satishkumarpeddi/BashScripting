@@ -1,0 +1,3 @@
+The 'ping' command uses Internet Control Message Protocol (IMCP) . Inorder to communicate with the different hosts
+
+The ping command can used to find out the Round Trip Time (RTT) between two hosts on a network.
