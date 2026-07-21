@@ -19,8 +19,13 @@ Mask (subnet mask)
 
 extracting `IP address` is a frequently needed task.
 
-ifconfig wlan0 | egrep -o "inet addr;[^ ]*" | grep -o "[0-9.]*" 
+sudo ifconfig wlan0 | egrep -o "inet addr;[^ ]*" | grep -o "[0-9.]*" 
 
-ifconfig wlan0 | grep -E -o "inet [^ ]*" | grep -o "[0-9.]*"
+sudo ifconfig wlan0 | grep -E -o "inet [^ ]*" | grep -o "[0-9.]*"
 
+Spoofing the hardware address (MAC address)
+------------------------------------------
 
+sudo ifconfig wlan0 hw ether new mac address 
+
+The Spoofing of the (Network access control) is used for troubleshooting are inorder to securly access the (Public Wifi)
