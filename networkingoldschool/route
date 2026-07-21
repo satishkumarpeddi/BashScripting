@@ -1,0 +1,8 @@
+
+Set the default gateway using route
+
+route add default gw IP_ADDR INTERFACE_NAME
+
+example:-
+
+route add default gw 192.168.1.7 wlxd03745f337fc

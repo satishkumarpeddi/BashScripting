@@ -13,5 +13,15 @@ A Domain name cna have mulitple IP address assigned.
 
 ping domain_name get's one ip address among all of them
 
+To get all the ip address assigned to a domain we use domain lookup utility (host,nslookup)
+
+host google.com
+
+nslookup google.com
+
 
 """
+
+echo IP_ADDRESS symbolic_name >> /etc/hosts/ 
+
+The above command is used to add a name to a ip_address

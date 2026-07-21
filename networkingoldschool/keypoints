@@ -4,3 +4,8 @@ There are many parameters in networking such as subnet mask,route,ports,host nam
 
 
 Networking interface is used to connect a machine to a network. eth0, eth1 
+
+
+Operating System maintains a table called the routing table. which contains the information on how packets are to be forwarded tthrough machines on the network.
+
+
