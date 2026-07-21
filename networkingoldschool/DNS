@@ -1,0 +1,10 @@
+The technique of abstracting IP address with symbolic names is DNS (Domain Name Service)
+
+Name servers assigned to the current system can be viewed by reading `/etc/resolv.conf`
+
+Adding 'Name Servers' to /etc/resolv.conf
+
+echo nameserver IP_Addr >> /etc/resolv.conf
+
+
+
