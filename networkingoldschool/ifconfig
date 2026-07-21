@@ -5,3 +5,19 @@ The above command should be a root user command
 ifconfig wlan0 ip_addr  netmask 255.255.252.0
 
 The above command is used to set the sub netmask using ifconfig command. 
+
+ifconfig iface_name is used to display the detail's of that particular network.
+
+HWaddr (Hardware address) (MAC address)
+
+inet (ipaddr)
+
+Bcast: is the broadcast address
+
+Mask (subnet mask)
+
+
+extracting `IP address` is a frequently needed task.
+
+ifconfig wlan0 | egrep -o "inet addr;[^ ]*" | grep -o "[0-9.]*" 
+
