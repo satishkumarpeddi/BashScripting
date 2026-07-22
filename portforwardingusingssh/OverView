@@ -1,0 +1,18 @@
+SSH Port Forwarding
+-------------------
+
+Bypass firewalls or secure app traffic
+
+Database queries, website traffic, video feeds
+
+Note:
+-----
+
+SSH port forwarding is a mechanism for routing network traffic through an encrypted SSH connection.
+
+syntax:-
+--------
+
+ssh -L [local_port]:[target_host]:[target_port] [user]@[ssh_server]
+
+
