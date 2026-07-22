@@ -1,0 +1,5 @@
+`sshfs` is used to mount a filesystem from a remote drive at local mount point.
+
+sshfs -o allow_other user@hostname:/home/path /mnt/mountpoint
+
+
