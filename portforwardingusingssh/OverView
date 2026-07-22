@@ -15,4 +15,8 @@ syntax:-
 
 ssh -L [local_port]:[target_host]:[target_port] [user]@[ssh_server]
 
+Reverse Port Forwarding
+-----------------------
+
+ssh -R  [local_port]:[target_host]:[target_port] [user]@[ssh_server]
 
