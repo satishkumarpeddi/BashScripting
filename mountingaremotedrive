@@ -2,4 +2,35 @@
 
 sshfs -o allow_other user@hostname:/home/path /mnt/mountpoint
 
+allow_other is not premitted in most of linux operation by default 
+
+1. sudo vim /etc/fuse.conf
+
+2. uncomment user_allow_other
+
+Making a mounting file
+======================
+
+sudo mkdir -p /mnt/mntfile
+
+Changing Premission
+===================
+
+sudo chown user:user /mnt/mntfile
+
+sshfs -o allow_other user@hostname:/home/path /mnt/mountpoint
+
+Example:-
+=========
+
+sudo vim /etc/fuse.conf
+
+use_allow_other
+
+sudo mkdir -p /mnt/scripting
+
+sudo chown docky:docky /mnt/scripting
+
+sshfs -o allow_other ubuntu:/home/satish-kumar-peddi/Bashscripting /mnt/scripting
+
 
