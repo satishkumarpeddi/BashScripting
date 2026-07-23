@@ -10,3 +10,4 @@ du -a DIRECTORY
 
 du -h is used to display the usage's on the file's in KB, MB.
 
+du -c it is used to get the grand total of disk usage.
