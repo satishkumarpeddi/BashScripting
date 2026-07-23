@@ -11,4 +11,6 @@ netcat -l 1234
 
 netcat 192.168.1.7 1234
 
+The network socket's are mainly used for text communication.
+
 
