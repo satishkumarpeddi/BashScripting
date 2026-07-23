@@ -1,0 +1,12 @@
+df and du are the two significant commands that are used for calculating disk usage in linux.
+
+df --> disk free
+du --> disk usage
+
+In-order to obtain the `disk usage` of a file's in the directory 
+
+du -a DIRECTORY
+
+
+du -h is used to display the usage's on the file's in KB, MB.
+
