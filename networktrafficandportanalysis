@@ -1,0 +1,8 @@
+lsof -i --> It is the command which is used to list all the opened port's and there functionality/service attached to it
+
+
+netstat -tnp --> It is used to get all the open port's on the system along with there service's
+
+
+
+
