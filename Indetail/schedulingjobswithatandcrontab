@@ -7,3 +7,9 @@ at time
 or 
 
 echo "bash shellscript.sh" | at time
+
+atq is used to display the pending jobs
+
+atrm job_number is used to remove the job from the queue
+
+at now+1 minute --> This command is used to set the execution of the command/script in the next minute.
