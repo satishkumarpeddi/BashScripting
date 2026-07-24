@@ -50,4 +50,14 @@ ls -d */
 
 find . -type d -maxdepth 1 -print 
 
- 
+
+Note:-
+======
+/etc/init.d --> contian's many shell script's,
+/etc/profile  
+
+1. man bash contains all help you need, but is very large
+
+2. help trap (help command can be used for information about Bash internals)
+
+
