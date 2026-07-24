@@ -13,3 +13,30 @@ atq is used to display the pending jobs
 atrm job_number is used to remove the job from the queue
 
 at now+1 minute --> This command is used to set the execution of the command/script in the next minute.
+
+at now+2 hours --> This command is used to set the execution of the command/script in the next 2 hours.
+
+Crontab
+-------
+
+The crontab is used for running specific tasks on a regular interval.
+
+syntax:- minutes hours days months weekdays command/script
+
+0-59 --> Minutes
+
+0-23 --> Hour
+
+1-31 --> day
+
+1-12 --> Month
+
+0-6 --> Weekday
+
+crontab -e to schedule a job
+
+-l to list the jobs
+
+-r to remove jobs
+
+
