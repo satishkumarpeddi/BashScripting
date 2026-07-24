@@ -1,0 +1,9 @@
+At command is useful for scheduling one time tasks.
+Example:-
+=========
+
+at time 
+
+or 
+
+echo "bash shellscript.sh" | at time
