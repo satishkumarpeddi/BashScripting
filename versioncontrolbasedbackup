@@ -1,5 +1,7 @@
 Setting up the backup for file using version control system
 
+git branch -U main
+
 Remote Server
 -------------
 
