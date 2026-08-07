@@ -1,0 +1,12 @@
+case $1 in
+  # Match on all weekdays
+  "Monday"|"Tuesday"|"Wednesday"|"Thursday"|"Friday")
+  echo "It is a Weekday!" $1;;
+  # Match on all weekend days
+  "Saturday"|"Sunday")
+  echo "It is a Weekend!" $1;;
+  # Create a default
+  *) 
+  echo "Not a day!" $1
+esac
+
