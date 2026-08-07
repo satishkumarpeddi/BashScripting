@@ -1,0 +1,11 @@
+declare -a array_name=() for normal array
+
+declare -A array_name=() for associative array 
+
+key-value pairs
+
+declare -A array_name=([key]=value..)
+
+! -> to get the key's 
+
+# -> to get the number of element's present in the array.

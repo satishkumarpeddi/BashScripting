@@ -14,3 +14,20 @@ OS uname: $OSUname
 EOF
 
 
+
+cd /lib/modules/`uname -r`
+
+In the above line `uname -r` print's the current version of the kernel
+
+This modules include's the device driver's, File systems (ext4,xfs,btrfs), Network protocols,Virtualization modules,Security modules.
+
+sudo modprobe iwlwifi --> where it load's the module for the wireless detection 
+
+[/lib/modules/$(uname -r)/kernel/drivers/net/wireless] The above command is used load this module.
+
+Appending Date To The File
+==========================
+
+touch logfile-$(date +%d-%m-%Y)
+
+
